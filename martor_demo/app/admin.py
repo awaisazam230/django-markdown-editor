@@ -5,7 +5,7 @@ from martor.widgets import AdminMartorWidget
 from martor.models import MartorField
 
 from app.models import Post
-
+from enum import Enum
 
 class PostAdmin(admin.ModelAdmin):
 
